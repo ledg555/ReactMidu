@@ -1,9 +1,12 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-//import App from './App.jsx'
 import './index.css'
-import Card from './App'
+import FollowCard from './FollowCard.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <Card/>
+  <FollowCard
+    name="José"
+    usrname="Juancho"
+    isFollowing={true}
+  />
 )
